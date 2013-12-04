@@ -72,4 +72,61 @@ user.sex_female? # => true
 ```
 
 
+## Active Record Nesting
+
+### nested attribute
+* 子供の情報を保存するとき色々しないといけない => それをスマートに
+
+#### Awesome nested set
+* gemでインストール
+* 普通にテーブルcreate
+    * acts_as_nested_setで指定
+    * around_moveで前後, after_moveで後に処理する
+
+#### ancestry
+* githubでホストされている
+* ちょっと見た感じ解かりにくい
+* 現状のプロジェクトだとjsonで保存しているので、あまり必要ないかも
+
+## Pagenation
+* kaminariとwill pagenationの二強か
+
+### kaminari
+* 今使用している
+* padding?
+    * 機能的には指定ページから何ページ表示するみたいな形？
+
+## background processing
+* 今はresqueでしょう
+
+## Code metrics
+* SimpleCovがベストでしょう
+* 保守が大変になると、使わなくなっちゃう
+
+## CSS with Ruby
+* Sass, compass, sass-rails
+    * sass-railsはrailsの場合使う
+* sassってなにか？
+    * cssを構造化して、わかりやすく保守しやすくする
+    * 変数を使えたり、nestで構造化したり・・・
+    * railsだとprecompileできる
+
+## PDFつくる
+### Prawn
+* これ一択っぽい
+* けど保守性があまりよろしくない
+* 実行速度が遅い
+
+### Wicked pdf
+* Webkitのエンジンでpdfを作る
+    * HTMLを入れるとpdf吐き出してくれる
+    * 保守性はいいが、HTMLの高さ解釈が曖昧な場合があるので、１ページに収めたいとかいう場合は大変かも
+
+## 来週からどうするか？
+* 担当者は決めたほうがいいのではないか？
+    * 全員発表
+    * カテゴリは各人自由で
+        * Chatworkで担当箇所を宣言して、被らないように
+    * できてない人もいるだろうから、各人出来たひとが持ち寄って発表
+
 
