@@ -4,7 +4,7 @@ https://github.com/ctran/annotate_models
 
 モデルやテストのファイルに、テーブルスキーマのコメントを追加してくれる。こういうの
 
-`
+```
 # == Schema Info
 #
 # Table name: line_items
@@ -19,7 +19,7 @@ https://github.com/ctran/annotate_models
  class LineItem < ActiveRecord::Base
    belongs_to :product
   . . .
-`
+```
 
 
 一部のクラスだけ追加、みたいなのはREADME見る限りないっぽい?
