@@ -91,10 +91,11 @@ class CartCell < Cell::Rails
     render  # renders show.html.haml
   end
 end
+```
 
 app/cells/cart/show.html.haml
 
-```
+```haml
 #cart
   You have #{@items.size} items in your shopping cart.
 ```
