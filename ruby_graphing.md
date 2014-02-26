@@ -24,7 +24,8 @@ gem install googlecharts
 
 サンプル
 ```googlecharts.rb
-require 'googlecharts'Gchart.line(
+require 'googlecharts'
+Gchart.line(
   :size => '200x300',
   :title => "example title",
   :bg => 'efefef',
