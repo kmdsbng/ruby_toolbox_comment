@@ -86,9 +86,7 @@ gem install chartkick
 
 デモサイト
 
-https://stormy-reaches-4050.herokuapp.com/
-
-
+http://ankane.github.io/chartkick/
 
 
 
@@ -105,4 +103,9 @@ https://github.com/michelson/lazy_high_charts
 
 Highcharts.jsを使うライブラリ。
 
+
+
+デモサイト
+
+https://stormy-reaches-4050.herokuapp.com/
 
