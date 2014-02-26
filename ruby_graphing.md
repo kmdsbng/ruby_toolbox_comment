@@ -109,3 +109,12 @@ Highcharts.jsを使うライブラリ。
 
 https://stormy-reaches-4050.herokuapp.com/
 
+
+
+## まとめ
+
+用途によって使い分ける必要がある。
+pdfに埋め込んだり画像として使用するならgruff一択。
+HTMLに埋め込むなら、googlecharts, chartkick, LazyHighChartsの中から、一番良さそうなものを選ぶのが良い。
+ダウンロード数はchartkickが一番多いけど、APIが独特で、十分なパラメータを渡せるのかどうかがよくわからない。
+
