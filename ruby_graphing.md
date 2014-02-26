@@ -1,4 +1,3 @@
-
 ## グラフを書くgemの種別
 * Google Chartsを利用する
    * urlにパラメータをセットすると、グラフ画像を返すAPI
@@ -25,7 +24,12 @@ gem install googlecharts
 
 サンプル
 ```googlecharts.rb
-require 'googlecharts'Gchart.line(  :size => '200x300',               :title => "example title",              :bg => 'efefef',              :legend => ['first data set label', 'second data set label'],              :data => [10, 30, 120, 45, 72])
+require 'googlecharts'Gchart.line(
+  :size => '200x300',
+  :title => "example title",
+  :bg => 'efefef',
+  :legend => ['first data set label', 'second data set label'],
+  :data => [10, 30, 120, 45, 72])
 ```
 
 
@@ -92,3 +96,5 @@ APIは美しいっぽいけど、よく分かってない。ActiveRecord::Base�
 https://github.com/michelson/lazy_high_charts
 
 Highcharts.jsを使うライブラリ。
+
+
