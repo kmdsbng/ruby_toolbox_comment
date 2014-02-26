@@ -84,6 +84,14 @@ gem install chartkick
 <%= line_chart User.group_by_day(:created_at).count %>
 ```
 
+デモサイト
+
+https://stormy-reaches-4050.herokuapp.com/
+
+
+
+
+
 
 APIは美しいっぽいけど、よく分かってない。ActiveRecord::Baseを拡張してる?
 
