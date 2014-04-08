@@ -37,6 +37,10 @@ http://faye.jcoglan.com/
 
 Fayeは[Bayeux](http://svn.cometd.com/trunk/bayeux/bayeux.html)プロトコルの実装。Bayeuxプロトコルは、Pub/Sub機能を実現するためのプロトコル。Pub/Subはチャンネルという単位で行う。チャンネルを購読するには `/meta/subscribe` にアクセス、データを送信するときにはチャンネルにデータを付けてサーバに送る、みたいなことや、死活監視や再接続方法などが定義されてる。
 
+また、HTTPレイヤーのプロトコルを自動でよしなに選んでくれるようになってる。
+(websocket, long polling, JSONPから、利用できるものを選んで使用する)
+
+
 
 ### サーバ側コード(config.ruを置くだけ)
 
