@@ -1,5 +1,7 @@
 # HTTP Pub/Sub
 
+[Ruby Toolbox - HTTP Pub/Sub](https://www.ruby-toolbox.com/categories/HTTP_Pub_Sub)
+
 HTTP Pub/Subライブラリは、チャットのような機能を実現するライブラリ。
 
 サーバとクライアントから構成される。
