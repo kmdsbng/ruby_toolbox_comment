@@ -25,7 +25,8 @@ websocketを扱う下層処理のライブラリはあるが、自前でHTTP Pub
 ### HTTP Pub/Sub使用するケース
 * チャット (chatworkやlingrなど)
 * 通知 (おもにSingle Page Applicationのサイトで、サーバからPush通知するために使う)
-
+  * 通知元のアプリケーションサーバも、Pub/Subクライアントになる
+  * ユーザごとにチャンネルを作り、アプリケーションサーバからのみ送信を許可する、みたいな処理をする。
 
 ## Faye
 
