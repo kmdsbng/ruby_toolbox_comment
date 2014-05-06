@@ -1,4 +1,4 @@
-! A/B Testing
+# A/B Testing
 
 https://www.ruby-toolbox.com/categories/A_B_Testing
 
