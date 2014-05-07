@@ -44,4 +44,15 @@ Thanks for signing up, dude! <% finished("signup_page_redesign") %>
 
 
 
+SplitはBanditアルゴリズムに対応してるらしい
+http://qiita.com/yuku_t/items/6844aac6008911401b19
+
+
+googleなどのbotにクローキングとみなされる危険はないのか?
+* ランダムでページを差替えても、クローキングとみなされるのか?
+
+google analyticsに結果データを投げる拡張がある
+https://github.com/andrew/split-analytics
+
+
 
