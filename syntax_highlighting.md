@@ -16,8 +16,11 @@ html = CodeRay.scan("puts 'Hello, world!'", :ruby).div(:line_numbers => :table)
 http://gyazo.com/fc3ec1406fada8f85a44aaefae387ada
 
 
+## githubはmarkdownのレンダリングにredcarpetを使ってるらしい
 
-### まとめ
+https://github.com/github/markup
+
+## まとめ
 
 Redcarpetのmarkdown出力で、コードハイライト部分にcoderayを組み合わせることもできるらしい。
 
